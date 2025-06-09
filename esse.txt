@@ -1,0 +1,54 @@
+ Comandos do Projeto .NET (Para executar no PowerShell)
+IMPORTANTE: Todos os comandos abaixo devem ser executados de dentro da pasta do projeto (CadastroCarrosAPI).
+
+PowerShell
+
+# Comando para entrar na pasta do projeto (ajuste o caminho se necessário)
+cd C:\Users\Lucas\para-a-prova-de-segundaaaaaaaaaaaaaa\Topicos-Especiais-de-Sistemas_Trabalho\CadastroCarrosAPI
+Para Rodar a Aplicação:
+
+PowerShell
+
+# Compila o projeto e verifica se há erros, mas não executa.
+dotnet build
+
+# Compila e EXECUTA a aplicação. Pressione Ctrl + C para parar.
+dotnet run
+
+# (Opcional, mas muito útil) Executa a aplicação e a reinicia automaticamente sempre que um arquivo for salvo.
+dotnet watch run
+Para Gerenciar o Banco de Dados (Entity Framework Core):
+
+PowerShell
+
+# Limpa os arquivos temporários de compilação. Use se tiver erros estranhos no build.
+dotnet clean
+
+# Cria uma nova migração depois que você altera uma classe de Modelo ou o AppDbContext.
+dotnet ef migrations add NomeDaSuaAlteracao
+
+# Aplica as migrações pendentes ao banco de dados (cria tabelas, insere dados, etc.).
+dotnet ef database update
+
+# (Para resetar) Apaga o banco de dados completamente.
+dotnet ef database drop --force
+2. Comandos do Git (Para versionar o código)
+Para Salvar Suas Alterações (Fazer um "Commit"):
+
+PowerShell
+
+# 1. Mostra o status dos seus arquivos (quais foram modificados).
+git status
+
+# 2. Adiciona TODOS os arquivos modificados para serem salvos no próximo commit.
+git add .
+
+# 3. Salva os arquivos com uma mensagem descritiva.
+git commit -m "Sua mensagem aqui, ex: Adicionado endpoint de PUT"
+Para Enviar Suas Alterações para o GitHub (ou outro repositório remoto):
+
+PowerShell
+
+# Envia os commits que você salvou localmente para o repositório na nuvem.
+git push
+Boa sorte na prova! Com esse projeto completo e essa colinha, você está muito bem preparado.
