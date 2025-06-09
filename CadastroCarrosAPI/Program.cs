@@ -23,6 +23,7 @@ app.UseStaticFiles();  // Habilita o uso de arquivos estáticos (HTML, CSS, JS)
 app.MapGetAllCarros();
 app.MapGetCarroById();
 app.MapPostCarro();
+app.MapPutCarro(); 
 app.MapDeleteCarro();
 
 app.Run();

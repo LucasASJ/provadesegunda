@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ux7QEIEj51WgWnpnuKXz7RFq2gQqN4tAyNAYaHhyLOU=",
+  "Hash": "6sgUskLXiGfFHuwizXYgVBbX1LwqPsY+e/cL5MN2Y78=",
   "Source": "CadastroCarrosAPI",
   "BasePath": "_content/CadastroCarrosAPI",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\CadastroCarrosAPI\\obj\\Debug\\net9.0\\compressed\\l3uw4n1163-8i50dvjp8q.gz",
+      "Identity": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\CadastroCarrosAPI\\obj\\Debug\\net9.0\\compressed\\l3uw4n1163-9ccuacd0ww.gz",
       "SourceId": "CadastroCarrosAPI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\CadastroCarrosAPI\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/CadastroCarrosAPI",
-      "RelativePath": "index#[.{fingerprint=8i50dvjp8q}]?.html.gz",
+      "RelativePath": "index#[.{fingerprint=9ccuacd0ww}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -31,8 +31,8 @@
       "RelatedAsset": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\CadastroCarrosAPI\\wwwroot\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "4uvw5oe3d4",
-      "Integrity": "1HHuko9oD0XZDrTRT2Gr5IGL7MJiWpcFhiCBHUpN7tk=",
+      "Fingerprint": "3v21slop7y",
+      "Integrity": "QWuVa2VbPLXx0nme8Gr8LiDnox0yVbZN19NsP3X4nyM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\CadastroCarrosAPI\\wwwroot\\index.html"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "8i50dvjp8q",
-      "Integrity": "IGuWRdj0j/HqG0SgZBGNpectVa14rPa1feodPf6rsIQ=",
+      "Fingerprint": "9ccuacd0ww",
+      "Integrity": "+WPJ5J5bOH1N0C0meoWV0RKcFQmq+Wy8K0a9IGyCskk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -61,13 +61,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "index.8i50dvjp8q.html",
-      "AssetFile": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\CadastroCarrosAPI\\obj\\Debug\\net9.0\\compressed\\l3uw4n1163-8i50dvjp8q.gz",
+      "Route": "index.9ccuacd0ww.html",
+      "AssetFile": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\CadastroCarrosAPI\\obj\\Debug\\net9.0\\compressed\\l3uw4n1163-9ccuacd0ww.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000770416025"
+          "Quality": "0.000531349628"
         }
       ],
       "ResponseHeaders": [
@@ -77,15 +77,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1297"
+          "Value": "1881"
         },
         {
           "Name": "ETag",
-          "Value": "\"1HHuko9oD0XZDrTRT2Gr5IGL7MJiWpcFhiCBHUpN7tk=\""
+          "Value": "\"QWuVa2VbPLXx0nme8Gr8LiDnox0yVbZN19NsP3X4nyM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 09 Jun 2025 18:13:33 GMT"
+          "Value": "Mon, 09 Jun 2025 19:28:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -105,13 +105,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"IGuWRdj0j/HqG0SgZBGNpectVa14rPa1feodPf6rsIQ=\""
+          "Value": "W/\"+WPJ5J5bOH1N0C0meoWV0RKcFQmq+Wy8K0a9IGyCskk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "8i50dvjp8q"
+          "Value": "9ccuacd0ww"
         },
         {
           "Name": "label",
@@ -119,12 +119,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-IGuWRdj0j/HqG0SgZBGNpectVa14rPa1feodPf6rsIQ="
+          "Value": "sha256-+WPJ5J5bOH1N0C0meoWV0RKcFQmq+Wy8K0a9IGyCskk="
         }
       ]
     },
     {
-      "Route": "index.8i50dvjp8q.html",
+      "Route": "index.9ccuacd0ww.html",
       "AssetFile": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\CadastroCarrosAPI\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -134,7 +134,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4271"
+          "Value": "7247"
         },
         {
           "Name": "Content-Type",
@@ -142,11 +142,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"IGuWRdj0j/HqG0SgZBGNpectVa14rPa1feodPf6rsIQ=\""
+          "Value": "\"+WPJ5J5bOH1N0C0meoWV0RKcFQmq+Wy8K0a9IGyCskk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 09 Jun 2025 18:13:33 GMT"
+          "Value": "Mon, 09 Jun 2025 19:28:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -156,7 +156,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "8i50dvjp8q"
+          "Value": "9ccuacd0ww"
         },
         {
           "Name": "label",
@@ -164,13 +164,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-IGuWRdj0j/HqG0SgZBGNpectVa14rPa1feodPf6rsIQ="
+          "Value": "sha256-+WPJ5J5bOH1N0C0meoWV0RKcFQmq+Wy8K0a9IGyCskk="
         }
       ]
     },
     {
-      "Route": "index.8i50dvjp8q.html.gz",
-      "AssetFile": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\CadastroCarrosAPI\\obj\\Debug\\net9.0\\compressed\\l3uw4n1163-8i50dvjp8q.gz",
+      "Route": "index.9ccuacd0ww.html.gz",
+      "AssetFile": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\CadastroCarrosAPI\\obj\\Debug\\net9.0\\compressed\\l3uw4n1163-9ccuacd0ww.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -179,7 +179,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1297"
+          "Value": "1881"
         },
         {
           "Name": "Content-Type",
@@ -187,11 +187,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1HHuko9oD0XZDrTRT2Gr5IGL7MJiWpcFhiCBHUpN7tk=\""
+          "Value": "\"QWuVa2VbPLXx0nme8Gr8LiDnox0yVbZN19NsP3X4nyM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 09 Jun 2025 18:13:33 GMT"
+          "Value": "Mon, 09 Jun 2025 19:28:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -209,7 +209,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "8i50dvjp8q"
+          "Value": "9ccuacd0ww"
         },
         {
           "Name": "label",
@@ -217,18 +217,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-1HHuko9oD0XZDrTRT2Gr5IGL7MJiWpcFhiCBHUpN7tk="
+          "Value": "sha256-QWuVa2VbPLXx0nme8Gr8LiDnox0yVbZN19NsP3X4nyM="
         }
       ]
     },
     {
       "Route": "index.html",
-      "AssetFile": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\CadastroCarrosAPI\\obj\\Debug\\net9.0\\compressed\\l3uw4n1163-8i50dvjp8q.gz",
+      "AssetFile": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\CadastroCarrosAPI\\obj\\Debug\\net9.0\\compressed\\l3uw4n1163-9ccuacd0ww.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000770416025"
+          "Quality": "0.000531349628"
         }
       ],
       "ResponseHeaders": [
@@ -238,15 +238,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1297"
+          "Value": "1881"
         },
         {
           "Name": "ETag",
-          "Value": "\"1HHuko9oD0XZDrTRT2Gr5IGL7MJiWpcFhiCBHUpN7tk=\""
+          "Value": "\"QWuVa2VbPLXx0nme8Gr8LiDnox0yVbZN19NsP3X4nyM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 09 Jun 2025 18:13:33 GMT"
+          "Value": "Mon, 09 Jun 2025 19:28:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -266,13 +266,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"IGuWRdj0j/HqG0SgZBGNpectVa14rPa1feodPf6rsIQ=\""
+          "Value": "W/\"+WPJ5J5bOH1N0C0meoWV0RKcFQmq+Wy8K0a9IGyCskk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-IGuWRdj0j/HqG0SgZBGNpectVa14rPa1feodPf6rsIQ="
+          "Value": "sha256-+WPJ5J5bOH1N0C0meoWV0RKcFQmq+Wy8K0a9IGyCskk="
         }
       ]
     },
@@ -287,7 +287,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4271"
+          "Value": "7247"
         },
         {
           "Name": "Content-Type",
@@ -295,11 +295,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"IGuWRdj0j/HqG0SgZBGNpectVa14rPa1feodPf6rsIQ=\""
+          "Value": "\"+WPJ5J5bOH1N0C0meoWV0RKcFQmq+Wy8K0a9IGyCskk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 09 Jun 2025 18:13:33 GMT"
+          "Value": "Mon, 09 Jun 2025 19:28:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -309,13 +309,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-IGuWRdj0j/HqG0SgZBGNpectVa14rPa1feodPf6rsIQ="
+          "Value": "sha256-+WPJ5J5bOH1N0C0meoWV0RKcFQmq+Wy8K0a9IGyCskk="
         }
       ]
     },
     {
       "Route": "index.html.gz",
-      "AssetFile": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\CadastroCarrosAPI\\obj\\Debug\\net9.0\\compressed\\l3uw4n1163-8i50dvjp8q.gz",
+      "AssetFile": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\CadastroCarrosAPI\\obj\\Debug\\net9.0\\compressed\\l3uw4n1163-9ccuacd0ww.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -324,7 +324,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1297"
+          "Value": "1881"
         },
         {
           "Name": "Content-Type",
@@ -332,11 +332,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1HHuko9oD0XZDrTRT2Gr5IGL7MJiWpcFhiCBHUpN7tk=\""
+          "Value": "\"QWuVa2VbPLXx0nme8Gr8LiDnox0yVbZN19NsP3X4nyM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 09 Jun 2025 18:13:33 GMT"
+          "Value": "Mon, 09 Jun 2025 19:28:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -354,7 +354,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-1HHuko9oD0XZDrTRT2Gr5IGL7MJiWpcFhiCBHUpN7tk="
+          "Value": "sha256-QWuVa2VbPLXx0nme8Gr8LiDnox0yVbZN19NsP3X4nyM="
         }
       ]
     }
