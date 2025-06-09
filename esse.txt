@@ -63,3 +63,96 @@ Depois que o comando rodar, entre na pasta que foi criada:
 PowerShell
 
 cd MeuNovoProjeto
+
+1. Documentação Automática da API com Swagger (OpenAPI)
+Suas aulas mencionam o Swagger, e essa é a melhoria de maior impacto que você pode fazer. O Swagger gera uma página web interativa que documenta todos os seus endpoints automaticamente. Com ele, qualquer pessoa (incluindo você ou um avaliador) pode ver e testar as rotas GET, POST, PUT e DELETE diretamente no navegador.
+
+Como adicionar:
+É muito simples em APIs Mínimas.
+
+Adicione os serviços no Program.cs:
+C#
+
+// Antes de "var app = builder.Build();"
+builder.Services.AddEndpointsApiExplorer(); // Necessário para o Swagger
+builder.Services.AddSwaggerGen();
+Configure a aplicação para usar o Swagger no Program.cs:
+C#
+
+var app = builder.Build();
+
+// Configure o pipeline de requisições HTTP.
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger(); // Gera o arquivo de documentação
+    app.UseSwaggerUI(); // Gera a página HTML do Swagger
+}
+Depois disso, ao rodar o projeto, você poderá acessar http://localhost:xxxx/swagger e verá a documentação interativa da sua API.
+
+2. Validação dos Dados de Entrada
+Atualmente, sua API aceita qualquer dado. Mas o que acontece se alguém tentar cadastrar um carro com o campo "Modelo" vazio ou com o "Ano" 2099? Para evitar isso, usamos validação. A forma mais fácil é com "Data Annotations" no seu modelo.
+
+Como adicionar:
+Abra o arquivo Models/Carro.cs e adicione atributos sobre as propriedades.
+
+C#
+
+using System.ComponentModel.DataAnnotations; // Adicione este using!
+
+namespace CadastroCarrosAPI.Models
+{
+    public class Carro
+    {
+        public int Id { get; set; }
+
+        [Required(ErrorMessage = "O modelo é obrigatório")]
+        [StringLength(50, ErrorMessage = "O modelo não pode passar de 50 caracteres")]
+        public string Modelo { get; set; } = string.Empty;
+
+        [Required(ErrorMessage = "A marca é obrigatória")]
+        public string Marca { get; set; } = string.Empty;
+
+        [Range(1900, 2025, ErrorMessage = "O ano deve ser entre 1900 e 2025")]
+        public int Ano { get; set; }
+
+        [Required(ErrorMessage = "A placa é obrigatória")]
+        [RegularExpression(@"^[A-Z]{3}-\d{4}$", ErrorMessage = "A placa deve estar no formato ABC-1234")]
+        public string Placa { get; set; } = string.Empty;
+    }
+}
+Com isso, o próprio ASP.NET Core irá validar automaticamente os dados recebidos e retornar um erro 400 Bad Request se alguma regra for violada, tornando sua API muito mais robusta.
+
+3. Um Arquivo README.md no GitHub
+Todo bom repositório no GitHub precisa de um README.md. É a porta de entrada do seu projeto. Ele explica o que o projeto faz e como usá-lo.
+
+Crie um arquivo chamado README.md na raiz do seu projeto com um conteúdo como este:
+
+Markdown
+
+# API de Cadastro de Carros
+
+Este projeto é uma API RESTful desenvolvida em ASP.NET Core para gerenciar um cadastro de carros.
+
+## Funcionalidades
+
+* **Listar** todos os carros.
+* **Buscar** um carro específico por ID.
+* **Cadastrar** um novo carro.
+* **Alterar** os dados de um carro existente.
+* **Excluir** um carro.
+
+## Tecnologias Utilizadas
+
+* .NET 9
+* ASP.NET Core (Minimal APIs)
+* Entity Framework Core
+* SQLite
+
+## Como Executar o Projeto
+
+1.  Clone o repositório.
+2.  Navegue até a pasta `CadastroCarrosAPI`.
+3.  Aplique as migrações do banco de dados: `dotnet ef database update`
+4.  Execute a aplicação: `dotnet run`
+5.  Acesse a interface em `http://localhost:xxxx` (verifique a porta no terminal).
+Esses três pontos — documentação com Swagger, validação e um bom README — elevam muito a qualidade do seu projeto. Eles demonstram que você não pensa apenas em "fazer funcionar", mas em como construir um software profissional, robusto e fácil de manter.
