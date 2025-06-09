@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6sgUskLXiGfFHuwizXYgVBbX1LwqPsY+e/cL5MN2Y78=",
+  "Hash": "EvzaIfMpBBAF81SPcQ1sAT+5Jg2ZXSwaQq5pUCZLL3g=",
   "Source": "CadastroCarrosAPI",
   "BasePath": "_content/CadastroCarrosAPI",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "CadastroCarrosAPI\\wwwroot",
       "Source": "CadastroCarrosAPI",
-      "ContentRoot": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\CadastroCarrosAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\cadastrocarrosapi\\wwwroot\\",
       "BasePath": "_content/CadastroCarrosAPI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\CadastroCarrosAPI\\obj\\Debug\\net9.0\\compressed\\l3uw4n1163-9ccuacd0ww.gz",
+      "Identity": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\cadastrocarrosapi\\obj\\Debug\\net9.0\\compressed\\l3uw4n1163-9ccuacd0ww.gz",
       "SourceId": "CadastroCarrosAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\CadastroCarrosAPI\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\cadastrocarrosapi\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/CadastroCarrosAPI",
       "RelativePath": "index#[.{fingerprint=9ccuacd0ww}]?.html.gz",
       "AssetKind": "All",
@@ -28,20 +28,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\CadastroCarrosAPI\\wwwroot\\index.html",
+      "RelatedAsset": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\cadastrocarrosapi\\wwwroot\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "3v21slop7y",
       "Integrity": "QWuVa2VbPLXx0nme8Gr8LiDnox0yVbZN19NsP3X4nyM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\CadastroCarrosAPI\\wwwroot\\index.html"
+      "OriginalItemSpec": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\cadastrocarrosapi\\wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\CadastroCarrosAPI\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\cadastrocarrosapi\\wwwroot\\index.html",
       "SourceId": "CadastroCarrosAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\CadastroCarrosAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\cadastrocarrosapi\\wwwroot\\",
       "BasePath": "_content/CadastroCarrosAPI",
       "RelativePath": "index#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -62,7 +62,7 @@
   "Endpoints": [
     {
       "Route": "index.9ccuacd0ww.html",
-      "AssetFile": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\CadastroCarrosAPI\\obj\\Debug\\net9.0\\compressed\\l3uw4n1163-9ccuacd0ww.gz",
+      "AssetFile": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\cadastrocarrosapi\\obj\\Debug\\net9.0\\compressed\\l3uw4n1163-9ccuacd0ww.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -125,7 +125,7 @@
     },
     {
       "Route": "index.9ccuacd0ww.html",
-      "AssetFile": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\CadastroCarrosAPI\\wwwroot\\index.html",
+      "AssetFile": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\cadastrocarrosapi\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -170,7 +170,7 @@
     },
     {
       "Route": "index.9ccuacd0ww.html.gz",
-      "AssetFile": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\CadastroCarrosAPI\\obj\\Debug\\net9.0\\compressed\\l3uw4n1163-9ccuacd0ww.gz",
+      "AssetFile": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\cadastrocarrosapi\\obj\\Debug\\net9.0\\compressed\\l3uw4n1163-9ccuacd0ww.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -223,7 +223,7 @@
     },
     {
       "Route": "index.html",
-      "AssetFile": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\CadastroCarrosAPI\\obj\\Debug\\net9.0\\compressed\\l3uw4n1163-9ccuacd0ww.gz",
+      "AssetFile": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\cadastrocarrosapi\\obj\\Debug\\net9.0\\compressed\\l3uw4n1163-9ccuacd0ww.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -278,7 +278,7 @@
     },
     {
       "Route": "index.html",
-      "AssetFile": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\CadastroCarrosAPI\\wwwroot\\index.html",
+      "AssetFile": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\cadastrocarrosapi\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -315,7 +315,7 @@
     },
     {
       "Route": "index.html.gz",
-      "AssetFile": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\CadastroCarrosAPI\\obj\\Debug\\net9.0\\compressed\\l3uw4n1163-9ccuacd0ww.gz",
+      "AssetFile": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\cadastrocarrosapi\\obj\\Debug\\net9.0\\compressed\\l3uw4n1163-9ccuacd0ww.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {

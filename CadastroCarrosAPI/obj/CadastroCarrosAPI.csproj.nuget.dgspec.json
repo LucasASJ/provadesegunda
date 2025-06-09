@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\CadastroCarrosAPI\\CadastroCarrosAPI.csproj": {}
+    "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\cadastrocarrosapi\\CadastroCarrosAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\CadastroCarrosAPI\\CadastroCarrosAPI.csproj": {
+    "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\cadastrocarrosapi\\CadastroCarrosAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\CadastroCarrosAPI\\CadastroCarrosAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\cadastrocarrosapi\\CadastroCarrosAPI.csproj",
         "projectName": "CadastroCarrosAPI",
-        "projectPath": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\CadastroCarrosAPI\\CadastroCarrosAPI.csproj",
+        "projectPath": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\cadastrocarrosapi\\CadastroCarrosAPI.csproj",
         "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\CadastroCarrosAPI\\obj\\",
+        "outputPath": "C:\\Users\\Lucas\\para-a-prova-de-segundaaaaaaaaaaaaaa\\Topicos-Especiais-de-Sistemas_Trabalho\\cadastrocarrosapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -57,6 +57,10 @@
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[9.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[8.1.4, )"
             }
           },
           "imports": [

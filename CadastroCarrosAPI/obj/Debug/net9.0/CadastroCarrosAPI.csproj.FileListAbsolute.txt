@@ -515,3 +515,8 @@ C:\Users\Lucas\para-a-prova-de-segundaaaaaaaaaaaaaa\Topicos-Especiais-de-Sistema
 C:\Users\Lucas\para-a-prova-de-segundaaaaaaaaaaaaaa\Topicos-Especiais-de-Sistemas_Trabalho\CadastroCarrosAPI\obj\Debug\net9.0\CadastroCarrosAPI.genruntimeconfig.cache
 C:\Users\Lucas\para-a-prova-de-segundaaaaaaaaaaaaaa\Topicos-Especiais-de-Sistemas_Trabalho\CadastroCarrosAPI\obj\Debug\net9.0\ref\CadastroCarrosAPI.dll
 C:\Users\Lucas\para-a-prova-de-segundaaaaaaaaaaaaaa\Topicos-Especiais-de-Sistemas_Trabalho\CadastroCarrosAPI\obj\Debug\net9.0\compressed\l3uw4n1163-9ccuacd0ww.gz
+C:\Users\Lucas\para-a-prova-de-segundaaaaaaaaaaaaaa\Topicos-Especiais-de-Sistemas_Trabalho\cadastrocarrosapi\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\Lucas\para-a-prova-de-segundaaaaaaaaaaaaaa\Topicos-Especiais-de-Sistemas_Trabalho\cadastrocarrosapi\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Lucas\para-a-prova-de-segundaaaaaaaaaaaaaa\Topicos-Especiais-de-Sistemas_Trabalho\cadastrocarrosapi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Lucas\para-a-prova-de-segundaaaaaaaaaaaaaa\Topicos-Especiais-de-Sistemas_Trabalho\cadastrocarrosapi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Lucas\para-a-prova-de-segundaaaaaaaaaaaaaa\Topicos-Especiais-de-Sistemas_Trabalho\cadastrocarrosapi\obj\Debug\net9.0\CadastroCarrosAPI.MvcApplicationPartsAssemblyInfo.cs
