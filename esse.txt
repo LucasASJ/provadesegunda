@@ -52,3 +52,14 @@ PowerShell
 # Envia os commits que você salvou localmente para o repositório na nuvem.
 git push
 Boa sorte na prova! Com esse projeto completo e essa colinha, você está muito bem preparado.
+
+Abra o terminal (CMD ou PowerShell).
+Navegue com o comando cd até a pasta onde você quer salvar seus projetos (por exemplo, cd C:\MeusDocumentos\Projetos).
+Execute o comando, trocando MeuNovoProjeto pelo nome que você quiser:
+PowerShell
+
+dotnet new web -n MeuNovoProjeto
+Depois que o comando rodar, entre na pasta que foi criada:
+PowerShell
+
+cd MeuNovoProjeto
